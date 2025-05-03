@@ -54,13 +54,24 @@ def get_earnings_date(ticker_symbol: str) -> Dict[str, Union[str, None, datetime
             eastern = pytz.timezone('US/Eastern')
             earnings_date = utc_dt.astimezone(eastern)
             
-            date_str = earnings_date.strftime('%Y-%m-%d')
+            # Format date in ISO format and words
+            date_str_iso = earnings_date.strftime('%Y-%m-%d')
+            
+            # Format date in words with ordinal suffix
+            day = earnings_date.day
+            if 4 <= day <= 20 or 24 <= day <= 30:
+                suffix = "th"
+            else:
+                suffix = ["st", "nd", "rd"][day % 10 - 1] if day % 10 <= 3 else "th"
+                
+            date_str_words = f"{day}{suffix} {earnings_date.strftime('%B')}, {earnings_date.year}"
             time_str = earnings_date.strftime('%H:%M:%S %Z')
             
             return {
                 'ticker': ticker,
                 'company': company_name,
-                'date': date_str,
+                'date_iso': date_str_iso,
+                'date': date_str_words,
                 'time': time_str,
                 'datetime': earnings_date
             }
@@ -84,12 +95,24 @@ def get_earnings_date(ticker_symbol: str) -> Dict[str, Union[str, None, datetime
                     eastern = pytz.timezone('US/Eastern')
                     earnings_date = earnings_date_utc.astimezone(eastern)
                     
-                    date_str = earnings_date.strftime('%Y-%m-%d')
+                    # Format date in ISO format and words
+                    date_str_iso = earnings_date.strftime('%Y-%m-%d')
+                    
+                    # Format date in words with ordinal suffix
+                    day = earnings_date.day
+                    if 4 <= day <= 20 or 24 <= day <= 30:
+                        suffix = "th"
+                    else:
+                        suffix = ["st", "nd", "rd"][day % 10 - 1] if day % 10 <= 3 else "th"
+                        
+                    date_str_words = f"{day}{suffix} {earnings_date.strftime('%B')}, {earnings_date.year}"
                     time_str = earnings_date.strftime('%H:%M:%S %Z')
+                    
                     return {
                         'ticker': ticker,
                         'company': company_name,
-                        'date': date_str,
+                        'date_iso': date_str_iso,
+                        'date': date_str_words,
                         'time': time_str,
                         'datetime': earnings_date
                     }
@@ -116,12 +139,24 @@ def get_earnings_date(ticker_symbol: str) -> Dict[str, Union[str, None, datetime
                     eastern = pytz.timezone('US/Eastern')
                     earnings_date = earnings_date_utc.astimezone(eastern)
                     
-                    date_str = earnings_date.strftime('%Y-%m-%d')
+                    # Format date in ISO format and words
+                    date_str_iso = earnings_date.strftime('%Y-%m-%d')
+                    
+                    # Format date in words with ordinal suffix
+                    day = earnings_date.day
+                    if 4 <= day <= 20 or 24 <= day <= 30:
+                        suffix = "th"
+                    else:
+                        suffix = ["st", "nd", "rd"][day % 10 - 1] if day % 10 <= 3 else "th"
+                        
+                    date_str_words = f"{day}{suffix} {earnings_date.strftime('%B')}, {earnings_date.year}"
                     time_str = earnings_date.strftime('%H:%M:%S %Z')
+                    
                     return {
                         'ticker': ticker,
                         'company': company_name,
-                        'date': date_str,
+                        'date_iso': date_str_iso,
+                        'date': date_str_words,
                         'time': time_str,
                         'datetime': earnings_date
                     }
@@ -133,6 +168,7 @@ def get_earnings_date(ticker_symbol: str) -> Dict[str, Union[str, None, datetime
         return {
             'ticker': ticker,
             'company': company_name,
+            'date_iso': None,
             'date': None,
             'time': None,
             'datetime': None
@@ -220,10 +256,23 @@ def format_output(df: pd.DataFrame) -> str:
     # Add header indicating Eastern Time
     header = "Earnings Dates (Eastern Time):"
     
-    # Group by date
-    current_date = None
+    # Group by date_iso (for sorting) but display the word format
+    current_date_iso = None
+    current_date_words = None
     lines = [header]
     no_date_lines = []
+    
+    # Sort the dataframe by date_iso if it exists
+    if 'date_iso' in display_df.columns:
+        df_with_dates = display_df.dropna(subset=['date_iso'])
+        df_without_dates = display_df[display_df['date_iso'].isna()]
+        
+        # Sort by date_iso
+        if not df_with_dates.empty:
+            df_with_dates = df_with_dates.sort_values(by='date_iso')
+            
+        # Recombine
+        display_df = pd.concat([df_with_dates, df_without_dates])
     
     for _, row in display_df.iterrows():
         company_info = f"  {row['ticker']} ({row['company']})"
@@ -233,9 +282,11 @@ def format_output(df: pd.DataFrame) -> str:
         if row['date'] == "No date available":
             no_date_lines.append(company_info)
         else:
-            if row['date'] != current_date:
-                current_date = row['date']
-                lines.append(f"\n\033[1m{current_date}\033[0m")
+            date_iso = row.get('date_iso', None)
+            if date_iso != current_date_iso:
+                current_date_iso = date_iso
+                current_date_words = row['date']
+                lines.append(f"\n\033[1m{current_date_words} ({current_date_iso})\033[0m")
             lines.append(company_info)
     
     # Add companies with no date at the end
@@ -258,7 +309,7 @@ def save_to_csv(df: pd.DataFrame, output_file: str) -> None:
     """
     if df.empty:
         # Create empty dataframe with required columns
-        save_df = pd.DataFrame(columns=['ticker', 'company', 'date', 'time'])
+        save_df = pd.DataFrame(columns=['ticker', 'company', 'date_iso', 'date', 'time'])
     else:
         # Create a copy
         save_df = df.copy()
