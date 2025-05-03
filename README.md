@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ### With command-line arguments:
 
 ```bash
-python earnings_date_tracker.py -t AAPL,MSFT,GOOGL,AMZN
+python earnings_tracker.py -t AAPL,MSFT,GOOGL,AMZN
 ```
 
 ### With a file containing tickers:
@@ -32,13 +32,13 @@ python earnings_date_tracker.py -t AAPL,MSFT,GOOGL,AMZN
 Create a text file (e.g., `tickers.txt`) with one ticker per line, then:
 
 ```bash
-python earnings_date_tracker.py -f tickers.txt
+python earnings_tracker.py -f tickers.txt
 ```
 
 ### Specify output file (optional):
 
 ```bash
-python earnings_date_tracker.py -t AAPL,MSFT -o my_earnings.csv
+python earnings_tracker.py -t AAPL,MSFT -o my_earnings.csv
 ```
 
 ## Output Example

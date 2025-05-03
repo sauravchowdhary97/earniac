@@ -47,6 +47,14 @@ def get_earnings_date(ticker_symbol: str) -> Dict[str, Union[str, None, datetime
         
         # Convert timestamp to datetime if found
         if earnings_timestamp:
+
+            current_timestamp = int(time.time())
+            if earnings_timestamp < current_timestamp:
+                # Try with earningsTimestampStart
+                earnings_timestamp_start = info['earningsTimestampStart']
+                if earnings_timestamp_start > current_timestamp:
+                        earnings_timestamp = earnings_timestamp_start
+
             # Convert to UTC datetime first
             utc_dt = datetime.fromtimestamp(earnings_timestamp, tz=pytz.UTC)
             
