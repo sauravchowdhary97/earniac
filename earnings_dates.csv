@@ -1,23 +1,16 @@
 ticker,company,date_iso,date,time
 TRIP,"TripAdvisor, Inc.",2025-05-07,"7th May, 2025",07:05:00 EDT
 AFRM,"Affirm Holdings, Inc.",2025-05-08,"8th May, 2025",16:00:00 EDT
-SMR,NuScale Power Corporation,2025-05-12,"12th May, 2025",16:00:00 EDT
-ACHR,Archer Aviation Inc.,2025-05-12,"12th May, 2025",19:00:00 EDT
-OKLO,Oklo Inc.,2025-05-13,"13th May, 2025",16:00:00 EDT
-CSCO,"Cisco Systems, Inc.",2025-05-14,"14th May, 2025",16:00:00 EDT
-BABA,Alibaba Group Holding Limited,2025-05-15,"15th May, 2025",08:30:00 EDT
-WMT,Walmart Inc.,2025-05-15,"15th May, 2025",09:30:00 EDT
-AMAT,"Applied Materials, Inc.",2025-05-15,"15th May, 2025",16:00:00 EDT
-TTWO,"Take-Two Interactive Software, ",2025-05-15,"15th May, 2025",16:00:00 EDT
+WMT,Walmart Inc.,2025-05-15,"15th May, 2025",07:02:00 EDT
 NBIS,Nebius Group N.V.,2025-05-20,"20th May, 2025",08:30:00 EDT
 PANW,"Palo Alto Networks, Inc.",2025-05-20,"20th May, 2025",16:00:00 EDT
 WRD,WERIDE INC.,2025-05-21,"21st May, 2025",08:30:00 EDT
 INTU,Intuit Inc.,2025-05-22,"22nd May, 2025",16:00:00 EDT
 OKTA,"Okta, Inc.",2025-05-27,"27th May, 2025",16:00:00 EDT
-CRM,"Salesforce, Inc.",2025-05-28,"28th May, 2025",16:00:00 EDT
-ULTA,"Ulta Beauty, Inc.",2025-05-28,"28th May, 2025",16:00:00 EDT
 NVDA,NVIDIA Corporation,2025-05-28,"28th May, 2025",16:00:00 EDT
-DELL,Dell Technologies Inc.,2025-05-29,"29th May, 2025",16:30:00 EDT
+CRM,"Salesforce, Inc.",2025-05-28,"28th May, 2025",16:00:00 EDT
+ULTA,"Ulta Beauty, Inc.",2025-05-29,"29th May, 2025",16:00:00 EDT
+DELL,Dell Technologies Inc.,2025-05-29,"29th May, 2025",17:00:00 EDT
 MRVL,"Marvell Technology, Inc.",2025-05-29,"29th May, 2025",19:00:00 EDT
 CRWD,"CrowdStrike Holdings, Inc.",2025-06-02,"2nd June, 2025",16:00:00 EDT
 GTLB,GitLab Inc.,2025-06-03,"3rd June, 2025",16:00:00 EDT
@@ -33,15 +26,15 @@ DAL,"Delta Air Lines, Inc.",2025-07-09,"9th July, 2025",08:30:00 EDT
 UNH,UnitedHealth Group Incorporated,2025-07-14,"14th July, 2025",08:30:00 EDT
 BLK,"BlackRock, Inc.",2025-07-14,"14th July, 2025",08:30:00 EDT
 UAL,"United Airlines Holdings, Inc.",2025-07-15,"15th July, 2025",06:59:00 EDT
-PLD,"Prologis, Inc.",2025-07-15,"15th July, 2025",08:30:00 EDT
-JPM,JP Morgan Chase & Co.,2025-07-15,"15th July, 2025",08:30:00 EDT
 C,"Citigroup, Inc.",2025-07-15,"15th July, 2025",08:30:00 EDT
+JPM,JP Morgan Chase & Co.,2025-07-15,"15th July, 2025",08:30:00 EDT
+PLD,"Prologis, Inc.",2025-07-15,"15th July, 2025",08:30:00 EDT
 ASML,ASML Holding N.V. - New York Re,2025-07-16,"16th July, 2025",01:00:00 EDT
 TSM,Taiwan Semiconductor Manufactur,2025-07-16,"16th July, 2025",06:59:00 EDT
+GS,"Goldman Sachs Group, Inc. (The)",2025-07-16,"16th July, 2025",08:30:00 EDT
+MS,Morgan Stanley,2025-07-16,"16th July, 2025",08:30:00 EDT
 BAC,Bank of America Corporation,2025-07-16,"16th July, 2025",08:30:00 EDT
 DPZ,Domino's Pizza Inc,2025-07-16,"16th July, 2025",08:30:00 EDT
-MS,Morgan Stanley,2025-07-16,"16th July, 2025",08:30:00 EDT
-GS,"Goldman Sachs Group, Inc. (The)",2025-07-16,"16th July, 2025",08:30:00 EDT
 NFLX,"Netflix, Inc.",2025-07-16,"16th July, 2025",16:00:00 EDT
 SLB,Schlumberger N.V.,2025-07-17,"17th July, 2025",07:00:00 EDT
 AXP,American Express Company,2025-07-17,"17th July, 2025",08:30:00 EDT
@@ -49,8 +42,8 @@ HDB,HDFC Bank Limited,2025-07-18,"18th July, 2025",06:59:00 EDT
 V,Visa Inc.,2025-07-21,"21st July, 2025",06:59:00 EDT
 CSGP,"CoStar Group, Inc.",2025-07-21,"21st July, 2025",06:59:00 EDT
 LMT,Lockheed Martin Corporation,2025-07-21,"21st July, 2025",08:30:00 EDT
-GOOGL,Alphabet Inc.,2025-07-21,"21st July, 2025",16:00:00 EDT
 TSLA,"Tesla, Inc.",2025-07-21,"21st July, 2025",16:00:00 EDT
+GOOGL,Alphabet Inc.,2025-07-21,"21st July, 2025",16:00:00 EDT
 NOW,"ServiceNow, Inc.",2025-07-22,"22nd July, 2025",06:59:00 EDT
 VRT,"Vertiv Holdings, LLC",2025-07-22,"22nd July, 2025",08:30:00 EDT
 PM,Philip Morris International Inc,2025-07-22,"22nd July, 2025",08:30:00 EDT
@@ -59,67 +52,73 @@ TXRH,"Texas Roadhouse, Inc.",2025-07-23,"23rd July, 2025",06:59:00 EDT
 SPOT,Spotify Technology S.A.,2025-07-23,"23rd July, 2025",08:30:00 EDT
 IBM,International Business Machines,2025-07-23,"23rd July, 2025",16:00:00 EDT
 SBUX,Starbucks Corporation,2025-07-28,"28th July, 2025",06:59:00 EDT
-AMD,"Advanced Micro Devices, Inc.",2025-07-28,"28th July, 2025",06:59:00 EDT
 FSLR,"First Solar, Inc.",2025-07-28,"28th July, 2025",06:59:00 EDT
+AMD,"Advanced Micro Devices, Inc.",2025-07-28,"28th July, 2025",06:59:00 EDT
 ANET,"Arista Networks, Inc.",2025-07-28,"28th July, 2025",06:59:00 EDT
 SOFI,"SoFi Technologies, Inc.",2025-07-28,"28th July, 2025",08:30:00 EDT
-EPD,Enterprise Products Partners L.,2025-07-28,"28th July, 2025",08:30:00 EDT
 SPGI,S&P Global Inc.,2025-07-28,"28th July, 2025",08:30:00 EDT
 PYPL,"PayPal Holdings, Inc.",2025-07-28,"28th July, 2025",08:30:00 EDT
+EPD,Enterprise Products Partners L.,2025-07-28,"28th July, 2025",08:30:00 EDT
 MSFT,Microsoft Corporation,2025-07-28,"28th July, 2025",16:00:00 EDT
 CFLT,"Confluent, Inc.",2025-07-29,"29th July, 2025",06:59:00 EDT
-CVNA,Carvana Co.,2025-07-29,"29th July, 2025",06:59:00 EDT
 COMP,"Compass, Inc.",2025-07-29,"29th July, 2025",06:59:00 EDT
-META,"Meta Platforms, Inc.",2025-07-29,"29th July, 2025",06:59:00 EDT
 FICO,Fair Isaac Corporation,2025-07-29,"29th July, 2025",06:59:00 EDT
-BA,Boeing Company (The),2025-07-29,"29th July, 2025",08:30:00 EDT
+META,"Meta Platforms, Inc.",2025-07-29,"29th July, 2025",06:59:00 EDT
+CVNA,Carvana Co.,2025-07-29,"29th July, 2025",06:59:00 EDT
 MA,Mastercard Incorporated,2025-07-29,"29th July, 2025",08:30:00 EDT
+BA,Boeing Company (The),2025-07-29,"29th July, 2025",08:30:00 EDT
 ETSY,"Etsy, Inc.",2025-07-29,"29th July, 2025",16:00:00 EDT
-XYZ,"Block, Inc.",2025-07-30,"30th July, 2025",06:59:00 EDT
-DKNG,DraftKings Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
-MSTR,MicroStrategy Incorporated,2025-07-30,"30th July, 2025",06:59:00 EDT
 SNAP,Snap Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
+XYZ,"Block, Inc.",2025-07-30,"30th July, 2025",06:59:00 EDT
+TWLO,Twilio Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
+DKNG,DraftKings Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
+X,United States Steel Corporation,2025-07-30,"30th July, 2025",06:59:00 EDT
 GDDY,GoDaddy Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
 ROKU,"Roku, Inc.",2025-07-30,"30th July, 2025",06:59:00 EDT
-X,United States Steel Corporation,2025-07-30,"30th July, 2025",06:59:00 EDT
-TWLO,Twilio Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
-AAPL,Apple Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
 DASH,"DoorDash, Inc.",2025-07-30,"30th July, 2025",06:59:00 EDT
-ETR,Entergy Corporation,2025-07-30,"30th July, 2025",08:30:00 EDT
-W,Wayfair Inc.,2025-07-30,"30th July, 2025",08:30:00 EDT
+AAPL,Apple Inc.,2025-07-30,"30th July, 2025",06:59:00 EDT
+MSTR,MicroStrategy Incorporated,2025-07-30,"30th July, 2025",06:59:00 EDT
 RBLX,Roblox Corporation,2025-07-30,"30th July, 2025",08:30:00 EDT
-APPN,Appian Corporation,2025-07-30,"30th July, 2025",08:30:00 EDT
 D,"Dominion Energy, Inc.",2025-07-30,"30th July, 2025",08:30:00 EDT
+ETR,Entergy Corporation,2025-07-30,"30th July, 2025",08:30:00 EDT
 SIRI,SiriusXM Holdings Inc.,2025-07-30,"30th July, 2025",08:30:00 EDT
-AMZN,"Amazon.com, Inc.",2025-07-30,"30th July, 2025",16:00:00 EDT
+APPN,Appian Corporation,2025-07-30,"30th July, 2025",08:30:00 EDT
+W,Wayfair Inc.,2025-07-30,"30th July, 2025",08:30:00 EDT
 BKNG,Booking Holdings Inc. Common St,2025-07-30,"30th July, 2025",16:00:00 EDT
+AMZN,"Amazon.com, Inc.",2025-07-30,"30th July, 2025",16:00:00 EDT
 COIN,"Coinbase Global, Inc.",2025-07-30,"30th July, 2025",19:00:00 EDT
 CVX,Chevron Corporation,2025-07-31,"31st July, 2025",08:30:00 EDT
 XOM,Exxon Mobil Corporation,2025-07-31,"31st July, 2025",09:30:00 EDT
 RDDT,"Reddit, Inc.",2025-08-04,"4th August, 2025",06:59:00 EDT
+RIVN,"Rivian Automotive, Inc.",2025-08-04,"4th August, 2025",06:59:00 EDT
 PLTR,Palantir Technologies Inc.,2025-08-04,"4th August, 2025",06:59:00 EDT
 SMCI,"Super Micro Computer, Inc.",2025-08-04,"4th August, 2025",06:59:00 EDT
 CRSP,CRISPR Therapeutics AG,2025-08-04,"4th August, 2025",06:59:00 EDT
-RIVN,"Rivian Automotive, Inc.",2025-08-04,"4th August, 2025",06:59:00 EDT
 UBER,"Uber Technologies, Inc.",2025-08-04,"4th August, 2025",08:30:00 EDT
-CART,Maplebear Inc.,2025-08-04,"4th August, 2025",16:00:00 EDT
-LEU,Centrus Energy Corp.,2025-08-04,"4th August, 2025",16:00:00 EDT
+TOST,"Toast, Inc.",2025-08-04,"4th August, 2025",16:00:00 EDT
 ABNB,"Airbnb, Inc.",2025-08-04,"4th August, 2025",16:00:00 EDT
 UPST,"Upstart Holdings, Inc.",2025-08-04,"4th August, 2025",16:00:00 EDT
-TOST,"Toast, Inc.",2025-08-04,"4th August, 2025",16:00:00 EDT
+CART,Maplebear Inc.,2025-08-04,"4th August, 2025",16:00:00 EDT
+LEU,Centrus Energy Corp.,2025-08-04,"4th August, 2025",16:00:00 EDT
 OXY,Occidental Petroleum Corporatio,2025-08-05,"5th August, 2025",06:59:00 EDT
 HOOD,"Robinhood Markets, Inc.",2025-08-05,"5th August, 2025",06:59:00 EDT
 LYFT,"Lyft, Inc.",2025-08-05,"5th August, 2025",08:30:00 EDT
-CEG,Constellation Energy Corporatio,2025-08-05,"5th August, 2025",08:30:00 EDT
-DIS,Walt Disney Company (The),2025-08-05,"5th August, 2025",08:30:00 EDT
 SHOP,Shopify Inc.,2025-08-05,"5th August, 2025",08:30:00 EDT
+DIS,Walt Disney Company (The),2025-08-05,"5th August, 2025",08:30:00 EDT
+CEG,Constellation Energy Corporatio,2025-08-05,"5th August, 2025",08:30:00 EDT
 EQIX,"Equinix, Inc.",2025-08-05,"5th August, 2025",16:00:00 EDT
-EXPE,"Expedia Group, Inc.",2025-08-06,"6th August, 2025",06:59:00 EDT
-DBX,"Dropbox, Inc.",2025-08-06,"6th August, 2025",06:59:00 EDT
 ONTO,Onto Innovation Inc.,2025-08-06,"6th August, 2025",06:59:00 EDT
-VST,Vistra Corp.,2025-08-06,"6th August, 2025",08:30:00 EDT
+DBX,"Dropbox, Inc.",2025-08-06,"6th August, 2025",06:59:00 EDT
+EXPE,"Expedia Group, Inc.",2025-08-06,"6th August, 2025",06:59:00 EDT
+TTWO,"Take-Two Interactive Software, ",2025-08-06,"6th August, 2025",06:59:00 EDT
+SMR,NuScale Power Corporation,2025-08-06,"6th August, 2025",06:59:00 EDT
+CNR,"Core Natural Resources, Inc.",2025-08-06,"6th August, 2025",08:30:00 EDT
 DDOG,"Datadog, Inc.",2025-08-06,"6th August, 2025",08:30:00 EDT
 VST,Vistra Corp.,2025-08-06,"6th August, 2025",08:30:00 EDT
-CNR,"Core Natural Resources, Inc.",2025-08-06,"6th August, 2025",08:30:00 EDT
+ACHR,Archer Aviation Inc.,2025-08-06,"6th August, 2025",16:00:00 EDT
 LLY,Eli Lilly and Company,2025-08-07,"7th August, 2025",08:30:00 EDT
 DUOL,"Duolingo, Inc.",2025-08-07,"7th August, 2025",16:00:00 EDT
+OKLO,Oklo Inc.,2025-08-11,"11th August, 2025",06:59:00 EDT
+CSCO,"Cisco Systems, Inc.",2025-08-12,"12th August, 2025",06:59:00 EDT
+AMAT,"Applied Materials, Inc.",2025-08-13,"13th August, 2025",06:59:00 EDT
+BABA,Alibaba Group Holding Limited,2025-08-13,"13th August, 2025",08:30:00 EDT
