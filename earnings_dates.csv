@@ -2,133 +2,133 @@ ticker,company,date,time,date_iso
 DPZ,Domino's Pizza Inc,"14th October, 2025",08:30:00 EDT,2025-10-14
 EFX,"Equifax, Inc.","21st October, 2025",08:30:00 EDT,2025-10-21
 VRT,"Vertiv Holdings, LLC","22nd October, 2025",08:30:00 EDT,2025-10-22
-PYPL,"PayPal Holdings, Inc.","28th October, 2025",08:30:00 EDT,2025-10-28
 W,Wayfair Inc.,"28th October, 2025",08:30:00 EDT,2025-10-28
-ETR,Entergy Corporation,"29th October, 2025",08:30:00 EDT,2025-10-29
 ETSY,"Etsy, Inc.","29th October, 2025",08:30:00 EDT,2025-10-29
+ETR,Entergy Corporation,"29th October, 2025",08:30:00 EDT,2025-10-29
 CVNA,Carvana Co.,"29th October, 2025",16:00:00 EDT,2025-10-29
-EQIX,"Equinix, Inc.","29th October, 2025",16:00:00 EDT,2025-10-29
 RBLX,Roblox Corporation,"30th October, 2025",08:30:00 EDT,2025-10-30
 EPD,Enterprise Products Partners L.,"30th October, 2025",08:30:00 EDT,2025-10-30
-GDDY,GoDaddy Inc.,"30th October, 2025",16:00:00 EDT,2025-10-30
-BYDDY,"BYD Co., Ltd.","30th October, 2025",16:00:00 EDT,2025-10-30
 RDDT,"Reddit, Inc.","30th October, 2025",16:00:00 EDT,2025-10-30
 TWLO,Twilio Inc.,"30th October, 2025",16:00:00 EDT,2025-10-30
-COIN,"Coinbase Global, Inc.","30th October, 2025",16:00:00 EDT,2025-10-30
+COIN,"Coinbase Global, Inc. - 3","30th October, 2025",16:00:00 EDT,2025-10-30
+BYDDY,"BYD Co., Ltd.","30th October, 2025",16:00:00 EDT,2025-10-30
 MSTR,Strategy Inc,"30th October, 2025",16:00:00 EDT,2025-10-30
+GDDY,GoDaddy Inc.,"30th October, 2025",16:00:00 EDT,2025-10-30
 D,"Dominion Energy, Inc.","31st October, 2025",08:30:00 EDT,2025-10-31
-SPOT,Spotify Technology S.A.,"4th November, 2025",08:30:00 EST,2025-11-04
 COMP,"Compass, Inc.","4th November, 2025",08:30:00 EST,2025-11-04
-RIVN,"Rivian Automotive, Inc.","4th November, 2025",16:00:00 EST,2025-11-04
-TOST,"Toast, Inc.","4th November, 2025",16:00:00 EST,2025-11-04
 SMCI,"Super Micro Computer, Inc.","4th November, 2025",16:00:00 EST,2025-11-04
-DUOL,"Duolingo, Inc.","5th November, 2025",16:00:00 EST,2025-11-05
+TOST,"Toast, Inc.","4th November, 2025",16:00:00 EST,2025-11-04
 SNAP,Snap Inc.,"5th November, 2025",16:00:00 EST,2025-11-05
 FICO,Fair Isaac Corporation,"5th November, 2025",16:00:00 EST,2025-11-05
+LEU,Centrus Energy Corp.,"5th November, 2025",16:00:00 EST,2025-11-05
 LYFT,"Lyft, Inc.","5th November, 2025",16:00:00 EST,2025-11-05
 DUOL,"Duolingo, Inc.","5th November, 2025",16:00:00 EST,2025-11-05
-APPN,Appian Corporation,"6th November, 2025",08:30:00 EST,2025-11-06
-DDOG,"Datadog, Inc.","6th November, 2025",08:30:00 EST,2025-11-06
-VST,Vistra Corp.,"6th November, 2025",08:30:00 EST,2025-11-06
-TRIP,"TripAdvisor, Inc.","6th November, 2025",08:30:00 EST,2025-11-06
+DUOL,"Duolingo, Inc.","5th November, 2025",16:00:00 EST,2025-11-05
 CNR,"Core Natural Resources, Inc.","6th November, 2025",08:30:00 EST,2025-11-06
-TXRH,"Texas Roadhouse, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
+TRIP,"TripAdvisor, Inc.","6th November, 2025",08:30:00 EST,2025-11-06
+VST,Vistra Corp.,"6th November, 2025",08:30:00 EST,2025-11-06
+DDOG,"Datadog, Inc.","6th November, 2025",08:30:00 EST,2025-11-06
+APPN,Appian Corporation,"6th November, 2025",08:30:00 EST,2025-11-06
+DKNG,DraftKings Inc.,"6th November, 2025",16:00:00 EST,2025-11-06
+EXPE,"Expedia Group, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
 XYZ,"Block, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
 DBX,"Dropbox, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
-OPEN,Opendoor Technologies Inc,"6th November, 2025",16:00:00 EST,2025-11-06
 ACHR,Archer Aviation Inc.,"6th November, 2025",16:00:00 EST,2025-11-06
 SMR,NuScale Power Corporation,"6th November, 2025",16:00:00 EST,2025-11-06
-DKNG,DraftKings Inc.,"6th November, 2025",16:00:00 EST,2025-11-06
 ABNB,"Airbnb, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
+AFRM,"Affirm Holdings, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
+OPEN,Opendoor Technologies Inc,"6th November, 2025",16:00:00 EST,2025-11-06
+ONTO,Onto Innovation Inc.,"6th November, 2025",16:00:00 EST,2025-11-06
+TXRH,"Texas Roadhouse, Inc.","6th November, 2025",16:00:00 EST,2025-11-06
 CRSP,CRISPR Therapeutics AG,"10th November, 2025",08:30:00 EST,2025-11-10
-OXY,Occidental Petroleum Corporatio,"10th November, 2025",16:00:00 EST,2025-11-10
 CRWV,"CoreWeave, Inc.","10th November, 2025",16:00:00 EST,2025-11-10
 NBIS,Nebius Group N.V.,"11th November, 2025",08:30:00 EST,2025-11-11
 OKLO,Oklo Inc.,"11th November, 2025",16:00:00 EST,2025-11-11
 SERV,Serve Robotics Inc.,"12th November, 2025",16:00:00 EST,2025-11-12
+DIS,Walt Disney Company (The),"13th November, 2025",08:30:00 EST,2025-11-13
+AMAT,"Applied Materials, Inc.","13th November, 2025",16:00:00 EST,2025-11-13
 WRD,WERIDE INC.,"24th November, 2025",08:30:00 EST,2025-11-24
 DELL,Dell Technologies Inc.,"25th November, 2025",16:00:00 EST,2025-11-25
 ULTA,"Ulta Beauty, Inc.","4th December, 2025",16:00:00 EST,2025-12-04
 CHWY,"Chewy, Inc.","10th December, 2025",08:30:00 EST,2025-12-10
-ACN,Accenture plc,"18th December, 2025",08:30:00 EST,2025-12-18
 NKE,"Nike, Inc.","18th December, 2025",16:00:00 EST,2025-12-18
-RR,Richtech Robotics Inc.,"29th December, 2025",16:00:00 EST,2025-12-29
+APLD,Applied Digital Corporation,"7th January, 2026",16:00:00 EST,2026-01-07
 STZ,"Constellation Brands, Inc.","7th January, 2026",16:00:00 EST,2026-01-07
-DAL,"Delta Air Lines, Inc.","9th January, 2026",08:30:00 EST,2026-01-09
-APLD,Applied Digital Corporation,"9th January, 2026",16:00:00 EST,2026-01-09
+DAL,"Delta Air Lines, Inc.","13th January, 2026",08:30:00 EST,2026-01-13
 JPM,JP Morgan Chase & Co.,"13th January, 2026",08:30:00 EST,2026-01-13
+RR,Richtech Robotics Inc.,"13th January, 2026",16:00:00 EST,2026-01-13
 C,"Citigroup, Inc.","14th January, 2026",08:30:00 EST,2026-01-14
 BAC,Bank of America Corporation,"14th January, 2026",08:30:00 EST,2026-01-14
-BLK,"BlackRock, Inc.","14th January, 2026",08:30:00 EST,2026-01-14
-TSM,Taiwan Semiconductor Manufactur,"15th January, 2026",08:30:00 EST,2026-01-15
 MS,Morgan Stanley,"15th January, 2026",08:30:00 EST,2026-01-15
+BLK,"BlackRock, Inc.","15th January, 2026",08:30:00 EST,2026-01-15
 GS,"Goldman Sachs Group, Inc. (The)","15th January, 2026",08:30:00 EST,2026-01-15
+TSM,Taiwan Semiconductor Manufactur,"15th January, 2026",08:30:00 EST,2026-01-15
 HDB,HDFC Bank Limited,"17th January, 2026",16:00:00 EST,2026-01-17
 UAL,"United Airlines Holdings, Inc.","20th January, 2026",16:00:00 EST,2026-01-20
 NFLX,"Netflix, Inc.","20th January, 2026",16:00:00 EST,2026-01-20
 PLD,"Prologis, Inc.","21st January, 2026",08:30:00 EST,2026-01-21
-AXP,American Express Company,"23rd January, 2026",08:30:00 EST,2026-01-23
 SLB,SLB Limited,"23rd January, 2026",08:30:00 EST,2026-01-23
-SOFI,"SoFi Technologies, Inc.","26th January, 2026",08:30:00 EST,2026-01-26
-LMT,Lockheed Martin Corporation,"27th January, 2026",08:30:00 EST,2026-01-27
 UNH,UnitedHealth Group Incorporated,"27th January, 2026",08:30:00 EST,2026-01-27
 V,Visa Inc.,"27th January, 2026",16:00:00 EST,2026-01-27
 SBUX,Starbucks Corporation,"27th January, 2026",16:00:00 EST,2026-01-27
-BA,Boeing Company (The),"28th January, 2026",08:30:00 EST,2026-01-28
 ASML,ASML Holding N.V. - New York Re,"28th January, 2026",08:30:00 EST,2026-01-28
+BA,Boeing Company (The),"28th January, 2026",08:30:00 EST,2026-01-28
 MSFT,Microsoft Corporation,"28th January, 2026",16:00:00 EST,2026-01-28
-META,"Meta Platforms, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
-IBM,International Business Machines,"28th January, 2026",16:00:00 EST,2026-01-28
-TER,"Teradyne, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
 NOW,"ServiceNow, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
 TSLA,"Tesla, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
+IBM,International Business Machines,"28th January, 2026",16:00:00 EST,2026-01-28
+TER,"Teradyne, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
+META,"Meta Platforms, Inc.","28th January, 2026",16:00:00 EST,2026-01-28
 MA,Mastercard Incorporated,"29th January, 2026",08:30:00 EST,2026-01-29
-SIRI,SiriusXM Holdings Inc.,"29th January, 2026",08:30:00 EST,2026-01-29
+LMT,Lockheed Martin Corporation,"29th January, 2026",08:30:00 EST,2026-01-29
 AAPL,Apple Inc.,"29th January, 2026",16:00:00 EST,2026-01-29
+AXP,American Express Company,"30th January, 2026",08:30:00 EST,2026-01-30
 XOM,Exxon Mobil Corporation,"30th January, 2026",08:30:00 EST,2026-01-30
 CVX,Chevron Corporation,"30th January, 2026",08:30:00 EST,2026-01-30
+SOFI,"SoFi Technologies, Inc.","30th January, 2026",08:30:00 EST,2026-01-30
 PLTR,Palantir Technologies Inc.,"2nd February, 2026",16:00:00 EST,2026-02-02
+PYPL,"PayPal Holdings, Inc.","3rd February, 2026",08:30:00 EST,2026-02-03
 GOOGL,Alphabet Inc.,"3rd February, 2026",16:00:00 EST,2026-02-03
+TTWO,"Take-Two Interactive Software, ","3rd February, 2026",16:00:00 EST,2026-02-03
 AMD,"Advanced Micro Devices, Inc.","3rd February, 2026",16:00:00 EST,2026-02-03
+LLY,Eli Lilly and Company,"4th February, 2026",08:30:00 EST,2026-02-04
 UBER,"Uber Technologies, Inc.","4th February, 2026",08:30:00 EST,2026-02-04
-DIS,Walt Disney Company (The),"4th February, 2026",08:30:00 EST,2026-02-04
 PM,Philip Morris International Inc,"5th February, 2026",08:30:00 EST,2026-02-05
-LLY,Eli Lilly and Company,"5th February, 2026",08:30:00 EST,2026-02-05
-ONTO,Onto Innovation Inc.,"5th February, 2026",16:00:00 EST,2026-02-05
-LEU,Centrus Energy Corp.,"5th February, 2026",16:00:00 EST,2026-02-05
-TTWO,"Take-Two Interactive Software, ","5th February, 2026",16:00:00 EST,2026-02-05
-EXPE,"Expedia Group, Inc.","5th February, 2026",16:00:00 EST,2026-02-05
-AFRM,"Affirm Holdings, Inc.","5th February, 2026",16:00:00 EST,2026-02-05
+SIRI,SiriusXM Holdings Inc.,"5th February, 2026",08:30:00 EST,2026-02-05
 AMZN,"Amazon.com, Inc.","5th February, 2026",16:00:00 EST,2026-02-05
+SPOT,Spotify Technology S.A.,"10th February, 2026",08:30:00 EST,2026-02-10
 SPGI,S&P Global Inc.,"10th February, 2026",08:30:00 EST,2026-02-10
+HOOD,"Robinhood Markets, Inc.","10th February, 2026",16:00:00 EST,2026-02-10
 UPST,"Upstart Holdings, Inc.","10th February, 2026",16:00:00 EST,2026-02-10
 SHOP,Shopify Inc.,"11th February, 2026",08:30:00 EST,2026-02-11
+EQIX,"Equinix, Inc.","11th February, 2026",16:00:00 EST,2026-02-11
+CSCO,"Cisco Systems, Inc.","11th February, 2026",16:00:00 EST,2026-02-11
 CFLT,"Confluent, Inc.","11th February, 2026",16:00:00 EST,2026-02-11
 IREN,IREN LIMITED,"11th February, 2026",16:00:00 EST,2026-02-11
-HOOD,"Robinhood Markets, Inc.","11th February, 2026",16:00:00 EST,2026-02-11
-CSCO,"Cisco Systems, Inc.","11th February, 2026",16:00:00 EST,2026-02-11
 PANW,"Palo Alto Networks, Inc.","12th February, 2026",16:00:00 EST,2026-02-12
-AMAT,"Applied Materials, Inc.","12th February, 2026",16:00:00 EST,2026-02-12
 ROKU,"Roku, Inc.","12th February, 2026",16:00:00 EST,2026-02-12
+RIVN,"Rivian Automotive, Inc.","12th February, 2026",16:00:00 EST,2026-02-12
 CEG,Constellation Energy Corporatio,"17th February, 2026",08:30:00 EST,2026-02-17
 DASH,"DoorDash, Inc.","17th February, 2026",16:00:00 EST,2026-02-17
-BABA,Alibaba Group Holding Limited,"19th February, 2026",08:30:00 EST,2026-02-19
+OXY,Occidental Petroleum Corporatio,"18th February, 2026",16:00:00 EST,2026-02-18
 WMT,Walmart Inc.,"19th February, 2026",08:30:00 EST,2026-02-19
+BABA,Alibaba Group Holding Limited,"19th February, 2026",08:30:00 EST,2026-02-19
 BKNG,Booking Holdings Inc. Common St,"19th February, 2026",16:00:00 EST,2026-02-19
 CART,Maplebear Inc.,"24th February, 2026",08:30:00 EST,2026-02-24
 ANET,"Arista Networks, Inc.","24th February, 2026",16:00:00 EST,2026-02-24
-CSGP,"CoStar Group, Inc.","24th February, 2026",16:00:00 EST,2026-02-24
 FSLR,"First Solar, Inc.","24th February, 2026",16:00:00 EST,2026-02-24
-NVDA,NVIDIA Corporation,"25th February, 2026",16:00:00 EST,2026-02-25
+CSGP,"CoStar Group, Inc.","24th February, 2026",16:00:00 EST,2026-02-24
 CRM,"Salesforce, Inc.","25th February, 2026",16:00:00 EST,2026-02-25
+NVDA,NVIDIA Corporation,"25th February, 2026",16:00:00 EST,2026-02-25
 INTU,Intuit Inc.,"26th February, 2026",16:00:00 EST,2026-02-26
-OKTA,"Okta, Inc.","2nd March, 2026",16:00:00 EST,2026-03-02
-GTLB,GitLab Inc.,"2nd March, 2026",16:00:00 EST,2026-03-02
 ASTS,"AST SpaceMobile, Inc.","2nd March, 2026",16:00:00 EST,2026-03-02
+GTLB,GitLab Inc.,"2nd March, 2026",16:00:00 EST,2026-03-02
+OKTA,"Okta, Inc.","2nd March, 2026",16:00:00 EST,2026-03-02
 AVGO,Broadcom Inc.,"4th March, 2026",16:00:00 EST,2026-03-04
 MRVL,"Marvell Technology, Inc.","5th March, 2026",16:00:00 EST,2026-03-05
 ORCL,Oracle Corporation,"9th March, 2026",17:00:00 EDT,2026-03-09
 CRWD,"CrowdStrike Holdings, Inc.","10th March, 2026",17:00:00 EDT,2026-03-10
 ADBE,Adobe Inc.,"12th March, 2026",17:00:00 EDT,2026-03-12
+ACN,Accenture plc,"19th March, 2026",09:30:00 EDT,2026-03-19
 WBA,WBA,,,
 X,X,,,
